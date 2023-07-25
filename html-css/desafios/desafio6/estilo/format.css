@@ -1,0 +1,9 @@
+body{
+    background-color: gray;
+    padding: 10px;
+}
+
+.tags ul li abbr{
+    text-decoration: none;
+    font-family: fantasy;
+}
