@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(229, 179, 241);
+    padding: 10px;
+}
+
+.sobre img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 0%;
+}
+
+.redes ul li img{
+
+    border-radius: 50%;
+    width: 20px;
+    right: 20px;
+    align-items:flex-end;
+}
