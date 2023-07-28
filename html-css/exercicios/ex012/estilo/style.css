@@ -1,0 +1,10 @@
+body{
+    background-image: url("../imagem/floresta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+video{
+    border-radius: 10%;
+}
