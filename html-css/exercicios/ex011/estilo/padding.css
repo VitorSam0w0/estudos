@@ -1,4 +1,8 @@
 body{
-    background-color: rgb(141, 230, 215);
+    background-image: url("../imagem/paris.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 30px;
+
 }
