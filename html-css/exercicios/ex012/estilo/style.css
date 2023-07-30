@@ -8,3 +8,7 @@ body{
 video{
     border-radius: 10%;
 }
+
+iframe{
+    border-radius: 30px;
+}
