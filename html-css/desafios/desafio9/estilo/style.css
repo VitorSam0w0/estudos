@@ -26,11 +26,12 @@ body{
 
 .menu1 img{
     border-radius: 20px;
+    opacity: 0.5;
 }
 
 .menu1 img:hover{
     transform: scale(1.1);
-    opacity: 0.5;
+    opacity: 1.0;
 }
 
 .menu2{
@@ -40,22 +41,24 @@ body{
 
 .menu2 img{
     border-radius: 20px;
+    opacity: 0.5;
 }
 
 .menu2 img:hover{
     transform: scale(1.1);
-    opacity: 0.5;
+    opacity: 1.0;
 }
 
 
 .video{
     display: flex;
     justify-content: center;
+    opacity: 0.5;
 }
 
 .video:hover{
     transform: scale(1.1);
-    opacity: 0.5;
+    opacity: 1.0;
 }
 
 .video iframe{
@@ -79,6 +82,7 @@ body{
     text-decoration: none;
 }
 
+
 .button:hover{
     transform: scale(1.1);
     opacity: 0.5;
@@ -96,9 +100,10 @@ body{
     font-size: 50px;
     font-family: fantasy;
     color: red;
+    opacity: 0.5;
 }
 
 .bt a:hover{
     transform: scale(1.1);
-    opacity: 0.5;
+    opacity: 1.0;
 }
