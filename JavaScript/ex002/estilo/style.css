@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font: 20pt normal;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
