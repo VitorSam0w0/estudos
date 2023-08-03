@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(172, 203, 243);
+    color: rgb(0, 0, 0);
+    font: normal 20pt Fantasy;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(87, 46, 126);
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
