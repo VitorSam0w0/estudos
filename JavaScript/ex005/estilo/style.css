@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: rgb(180, 208, 224);
+    font: 18pt normal;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
