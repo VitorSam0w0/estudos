@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+    padding: 0%;
+    height: 2000px;
+}
+
+
+p{
+    color: aliceblue;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
+
+.navi ul li img{
+    position: fixed;
+    width: 40px;
+    height: 40px;   
+}
+
+.navi ul{
+    list-style: none;
+}
+
+.navi ul li {
+    display: inline-block;
+    padding: 30px;
+    font-size: 16pt;
+    font-family: monospace
+}
+
+.navi ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navi ul li:hover{
+    scale: 1.1;
+    transition: 2s;
+}
+
+.navi ul li a:hover{
+    text-decoration: none;
+    color: bisque;
+    transition: 1.5;
+}
+
+.titulo{
+    padding-top: 11%;
+    overflow: hidden;
+}
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    size: 20pt;
+}
+
+.titulo a :hover{
+    scale: 1.1;
+    transition: 2s;
+    color: bisque;
+}
+
+
+.titulo p{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    size: 20pt;
+}
+
+.titulo a{
+    text-decoration: none;
+}
+
+
+.container{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.resultado a:hover{
+    scale: 1.1;
+    transition: 3s;
+}
+
+.resultado a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 50pt;
+    font-family: fantasy;
+}
+
+.pais input{
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    font-size: 24pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.pais input:hover{
+    scale: 1.2;
+    color: black;
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+.botao input{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 24pt;
+    font-family: 'Courier New', Courier, monospace;
+    border-style:groove;
+}
+
+.botao input:hover{
+    scale: 1.2;
+    color: black;
+    background-color: aliceblue;
+    transition: 1s;
+}

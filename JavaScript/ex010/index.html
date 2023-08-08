@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo/style.css">
     <link rel="shortcut icon" href="./imagem/js.ico" type="image/x-icon">
-    <title>Br ou Estrangeiro?</title>
+    <title>Multado ou não?</title>
 </head>
 <body>
     <header>
@@ -13,7 +13,6 @@
             <div class="nav">
                 <div class="navi">
                     <ul>
-                        <li><img src="./imagem/js.ico" alt="JS ICO"></li>
                         <li><a href="">Inicio</a></li>
                         <li><a href="">Contato</a></li>
                         <li><a href="">Sobre</a></li>
@@ -22,27 +21,23 @@
             </div>
         </nav>
         <head>
-            <div class="titulo">
-                <a href="#">
-                    <h1>Descubra se é Br ou Estrangeiro</h1>
-                </a>
-                <a href="#">
-                    <p>Digite o nome do seu País de origem</p>
-                </a>
-            </div>
             <div class="container">
-                <div class="pais">
-                    <input type="search" name="pais" id="pais">
+                <span class="title">
+                    <h1><a href="#">Multado ou não?</a></h1>
+                </span>
+                <div class="paragrafo">
+                    <p><a href="#">Coloque a velocidade do motorista e veja se ele foi multado ou não!</a></p>
                 </div>
             </div>
-            <div class="container2">
-                <div class="botao">
-                    <input type="button" value="enviar" onclick="enviar()">
-                </div>
+            <div class="controle">
+                <div id="vel"><input type="number" name="velocidade" id="velocidade" ></div>
+                <div id="button"><input type="button" value="Enviar" onclick="valor()" ></div>
             </div>
-            <div class="resultado"><a id="resultado" href="#"></a></div>
+            <div class="resultado">
+                <div><a id="resultado" href="#"></a></div>
+            </div>
+            <script src="./script/script.js"></script>
         </head>
     </header>
-    <script src="./script/script.js"></script>
 </body>
 </html>
