@@ -2,14 +2,26 @@ body{
     background-color: black;
     color: rgb(180, 208, 224);
     font: 18pt normal;
+    padding: 0;
 }
 
-h1{
+
+.titulo{
     display: flex;
     justify-content: center;
 }
 
-p{
+header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p strong{
+    margin: 5px;
+}
+
+header .clique{
     display: flex;
     justify-content: center;
 }

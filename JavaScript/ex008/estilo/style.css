@@ -1,0 +1,97 @@
+body{
+    background-image: url('../imagem/cat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+}
+
+strong{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+h1:hover{
+    scale: 1.1;
+    transition: 5s;
+}
+
+p{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+p:hover{
+    scale: 1.1;
+    transition: 5s;
+}
+
+.container {
+    padding-top: 2%;
+    padding-left: 35%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.estilos input{
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    font-family: fantasy;
+    font-size: 30pt;
+}
+
+.estilos input:hover{
+    scale: 1.1;
+    color: white;
+    background-color: black;
+    transition: 2s;
+}
+
+.estilos2{
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.estilos2 input{
+    width: 160px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: fantasy;
+    font-size: 15pt;
+    border-style: solid;
+}
+
+.estilos2 input:hover{
+    scale: 1.1;
+    color: aliceblue;
+    background-color: rgb(20, 20, 20);
+    transition: 2s;
+}
+
+#resultado2{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#resultado{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 20pt;
+    color: gray;
+}
+
+#resultado:hover{
+    scale: 1.1;
+    transition: 2s;
+}
