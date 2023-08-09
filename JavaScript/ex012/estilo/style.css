@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    padding: 0%;
+    height: 2000px;
+}
+
+.nav ul{
+    text-align: center;
+    position: fixed;
+    width: 97%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+
+.navi ul li{
+    display: inline-block;
+    padding: 2%;
+}
+
+
+.navi ul li a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-size: 17pt;
+    font-family: monospace;
+}
+
+.navi ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.navi ul li:hover{
+    scale: 1.1;
+    transition: 1.5s;
+}
+
+.title {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.title a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-size: 25pt;
+    font-family: monospace;
+}
+
+.title a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+
+.container{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .valores input{
+    width: 300px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 20pt;
+    font-family: monospace;
+    color: rgb(107, 107, 107);
+    background-color: black;
+}
+
+.container .button{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.container .button input{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15pt;
+    font-family: monospace;
+    color: rgb(107, 107, 107);
+    background-color: black;
+    border-style: groove;
+}
+
+.container input:hover{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    scale: 1.1;
+    transition: 1s;
+}
+
+.resposta {
+    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.resposta a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-size: 20pt;
+    font-family: monospace;
+}
+
+.resposta a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
