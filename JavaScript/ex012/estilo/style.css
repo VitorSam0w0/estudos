@@ -111,3 +111,16 @@ body{
     color: aliceblue;
     transition: 1s;
 }
+
+.hora{
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.hora a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-size: 16pt;
+    font-family: monospace;
+}
