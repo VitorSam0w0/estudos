@@ -1,0 +1,142 @@
+body{
+    color: aliceblue;
+    background-color: black;
+    padding: 0;
+    height: 2000px;
+}
+
+.nav{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+.navi ul{
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 2%;
+    display: inline-block;
+}
+
+.navi ul li a{
+    text-decoration: none;
+    color: rgb(108, 110, 108);
+    font-family: monospace;
+    font-size: 18pt;
+}
+
+.navi ul li:hover{
+    scale: 1.1;
+}
+
+.navi ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+
+.title {
+    padding-top: 10%;
+    overflow: hidden;
+    align-items: center;
+    font-family: monospace;
+}
+
+.h1{
+    font-size: 29pt;
+    display: flex;
+    justify-content: center;
+}
+
+.h1 a{
+    text-decoration: none;
+    color: rgb(108, 110, 108);
+}
+.h1 a:hover{
+    color: aliceblue;aliceblue;
+    transition: 1.5s;
+}
+
+.p{
+    padding-top: 2%;
+    font-size: 16pt;
+    display: flex;
+    justify-content: center;
+    color: rgb(108, 110, 108);;
+}
+.p a{
+    text-decoration: none;
+    color: rgb(108, 110, 108);
+}
+
+.p a:hover{
+    color: aliceblue;
+    transition: 1.5s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.idade input{
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(108, 110, 108);
+    background-color: rgb(0, 0, 0);
+}
+
+.idade input:hover{
+    scale: 1.1;
+    color: black;
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+
+.button {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.button input{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 16pt;
+    color: rgb(108, 110, 108);
+    font-family: monospace;
+    background-color: black;
+    border-style: groove;
+}
+
+.button input:hover{
+    scale: 1.1;
+    color: black;
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+.resultado {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.resultado a{
+    text-decoration: none;
+    color: rgb(108, 110, 108);
+    font-size: 25pt;
+    font-family: monospace;
+}
+
+.resultado a:hover{
+    color: rgb(255, 255, 255);
+    transition: 1S;
+}
