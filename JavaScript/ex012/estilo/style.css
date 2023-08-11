@@ -124,3 +124,8 @@ body{
     font-size: 16pt;
     font-family: monospace;
 }
+
+.hora a:hover{
+    transition: 1s;
+    color: aliceblue;
+}

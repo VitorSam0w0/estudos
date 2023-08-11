@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+    height: 2000px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+div ul{
+    position: fixed;
+}
+
+div ul li{
+    padding: 40px;
+    display: inline-block;
+}
+
+div ul li:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
+div ul li a{
+    color: gray;
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: monospace;
+}
+
+div ul li a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
