@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    padding: 0%;
+}
+
+.titulo {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-family: monospace;
+    font-size: 30pt;
+}
+
+.titulo a{
+    text-decoration: none;
+    font-size: 30pt;
+    font-family: monospace;
+}
+
+#titulo:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    display: inline-block;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.87);
+    border-radius: 20px;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.img:hover{
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+.img:hover{
+    scale: 1.002;
+}
+
+.img img{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+
+.img img:hover{
+    scale: 0.99;
+    transition: 1s;
+}
+
+
+.container .img p{
+    padding-top: 2%;
+}
+
+#horaAgora {
+    font-size: 18pt;
+    font-family: monospace; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#horaAgora:hover{
+    color: gray;
+}
