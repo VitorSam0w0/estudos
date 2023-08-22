@@ -1,0 +1,99 @@
+body{
+    background-color: #ffffd8;
+    color: #b0a477;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    font: 24pt;
+    font-family: monospace;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+}
+
+.idade {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.idade input{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20pt;
+    text-align: center;
+    background-color: #b0a477;
+    color: #ffffd8;
+    border-color: #b0a477;
+}
+
+.idade input:hover{
+    background-color: #ffffd8;
+    color: #b0a477;
+    scale: 1.08;
+    transition: 1s;
+}
+
+.genero {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 16pt;
+    font-family: monospace;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.button input{
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    font-size: 20pt;
+    font-family: monospace;
+    background-color: #b0a477;
+    border-color: #b0a477;
+    color: #ffffd8;
+}
+
+.button input:hover{
+    color: #b0a477;
+    background-color: #ffffd8;
+    scale: 1.08;
+    transition: 1s;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.imagem img {
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.imagem img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
+.texto a{
+    padding-top: 3%;
+    font-size: 15pt;
+    text-decoration: none;
+    color: #b0a477;
+    font-family: monospace;
+}
