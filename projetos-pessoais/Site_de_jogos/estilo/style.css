@@ -28,6 +28,13 @@
 .navi ul {
     list-style: none;
     margin: 2%;
+    transition: 1s;
+}
+
+.navi ul:hover{
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    transition: 1s;
 }
 
 .navi ul li a {
@@ -40,7 +47,7 @@
     text-align: left;
     float: left;
     position: relative;
-    border-radius: 50%;
+    border-radius: 10%;
     box-shadow: 5px 5px rgba(100, 7, 7, 0);
 
 }
@@ -51,7 +58,7 @@
     scale: 1.1;
     background-color: red;
     border-radius: 20px;
-    box-shadow: 5px 5px rgb(100, 7, 7);
+    box-shadow: 3px 3px rgb(100, 7, 7);
     text-align: center;
 }
 
