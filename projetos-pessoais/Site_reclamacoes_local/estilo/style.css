@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .nav{
+    justify-content: center;
+    display: flex;
+  }
+
+  .nav2 ul li{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 50px;
+  }
+
+  .nav2 ul li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 18pt;
+    color: black;
+  }
+
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .rating {
+display: flex;
+justify-content: space-between;
+font-size: 24px;
+margin-bottom: 10px;
+flex-direction: row-reverse; /* Mudança na direção das estrelas */
+}
+
+.rating input {
+display: none;
+}
+
+.rating label {
+cursor: pointer;
+}
+
+.rating label::before {
+content: "\2605";
+}
+
+.rating input:checked ~ label::before {
+content: "\2605";
+color: gold;
+}
+
+.footer{
+    justify-content: center;
+    display: flex;
+}
