@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    cursor: grab;
+}
+
+span{
+    font-size: 13pt;
+    font-family: monospace;
+    color: black;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    align-items: center;
+    box-shadow: 5px 5px black;
+
+}
+
+.container:hover {
+    cursor: grabbing;
+}
+
+.container:hover {
+    box-shadow: 4px 4px black;
+    scale: 0.99;
+    transition: 0.3s;
+}
+
+.container ul li {
+    list-style: none;
+}
+
+.fundo li input {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    border-style: ridge;
+    border-color: black;
+    font-size: 18pt;
+    font-family: fantasy;
+    color: black;
+    cursor: text;
+}
+
+.fundo li input:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+    transition: 1s;
+}
+
+.span_fim {
+    margin-right: 25px;
+}
+
+.span_passo{
+    margin-right: 5px;
+}
+
+.button input {
+    width: 280px;
+    color: black;
+    background-color: white;
+    font-size: 20pt;
+    font-family: monospace;
+    border-color: black;
+}
+
+.button input:hover{
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    scale: 1.04;
+    cursor: pointer;
+}
+
