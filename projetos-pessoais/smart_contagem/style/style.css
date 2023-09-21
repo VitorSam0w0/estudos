@@ -23,6 +23,20 @@ span{
     margin-top: 5%;
     align-items: center;
     box-shadow: 5px 5px black;
+    flex-direction: column;
+
+}
+
+.container2 {
+    justify-content: center;
+    display: flex;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -32,7 +46,7 @@ span{
 
 .container:hover {
     box-shadow: 4px 4px black;
-    scale: 0.99;
+    scale: 0.998;
     transition: 0.3s;
 }
 
