@@ -7,7 +7,7 @@ function calcular() {
     var step2 = Number(step.value)
     var campo = document.getElementById('CAMPO')
 
-    if (number2 >= 1 && end2 >= 1 && step2 >= 1) {
+    if (number2 >= 0 && end2 >= 1 && step2 >= 1) {
 
         var i = number2
 

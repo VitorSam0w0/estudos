@@ -7,6 +7,44 @@ html {
     cursor: grab;
 }
 
+.nav {
+    justify-content: center;
+    display: flex ;
+}
+
+.nav ul li {
+    padding: 30px;
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+}
+
+.nav ul li:hover {
+    scale: 1.08;
+    transition: 0.8;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 17pt;
+    color: gray;
+}
+
+.nav ul li a:hover {
+    color: black;
+    transition: 1s;
+}
+
+.title {
+    justify-content: center;
+    padding-top: 30px;
+    display: flex;
+    color: black;
+    font-size: 40pt;
+    font-family: monospace;
+}
+
 span{
     font-size: 13pt;
     font-family: monospace;
