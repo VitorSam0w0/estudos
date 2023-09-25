@@ -17,6 +17,26 @@ nav {
     border-radius: 50px;
 }
 
+.navigation {
+    opacity: 0;
+}
+
+.navigation:hover {
+    opacity: 50%;
+}
+
+.imgMenu {
+    width: 40px;
+    height: 40px;
+}
+
+.containerImg {
+    justify-content: center;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
 section {
     margin-top: 70px;
 }
@@ -25,6 +45,9 @@ header {
     margin-top: 100px;
 }
 
+.lista {
+    display: none;
+}
 
 .lista ul {
     list-style: none;

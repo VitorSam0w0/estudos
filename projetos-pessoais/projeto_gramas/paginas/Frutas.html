@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css"> 
+    <link rel="stylesheet" href="../style/popUp.css">
     <title>frutas</title>
 </head>
 <body>
     <nav>
-        <div class="lista">
-            <nav class="nav">
-                <ul>
-                    <li><a href="../index.html">Menu</a></li>
-                    <li><a href="">Histórico</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+        <div class="containerImg"><a href="#" onclick="menuAbre()"><img class="imgMenu" src="../img/menu.png" alt="menu"></a></div>
+        <ul>
+            <li>
+                <div id="lista" class="lista">
+                     <ul>
+                        <li><a href="../index.html">Menu</a></li>
+                        <li><a href="">Histórico</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </nav>
     <header>
         <div class="span">
@@ -55,7 +59,7 @@
             <span>
                 <!---->
                 <span class="items">
-                    <img src="../img/banana-branca.webp" alt="banana-branca">
+                    <img src="../img/banana-branca.webp" alt="banana-branca"  onclick="popUp()">
                     <span>
                         <p class="nome">Banana branca</p>
                         <div class="texto">
@@ -64,6 +68,14 @@
                                         <p>Kg</p>
                                 </span>
                         </div>
+                        <form id="popUP" class="popUp">
+                            <div>
+                                <input class="content_button_exit" type="button" value="X" onclick="popUpExit()">
+                            </div>
+                            <div class="content_forms_kg">
+                                <p>Testando isso aqui</p>
+                            </div>
+                        </form>
                     </span>
                 </span>
                 <!---->
@@ -138,6 +150,9 @@
 
 
     </footer>
+    <script src="../script/menu.js"></script>
+    <script src="../script/content_popUP_exit.js"></script>
+    <script src="../script/content_popUP.js"></script>
     <script src="../script/formatar_input.js"></script>
     <script src="../script/script.js"></script>
 </body>
