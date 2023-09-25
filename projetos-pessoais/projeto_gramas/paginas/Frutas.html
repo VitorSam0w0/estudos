@@ -7,13 +7,13 @@
     <title>frutas</title>
 </head>
 <body>
-    <nav class="nav">
+    <nav>
         <div class="lista">
-            <nav>
+            <nav class="nav">
                 <ul>
                     <li><a href="../index.html">Menu</a></li>
+                    <li><a href="">Histórico</a></li>
                     <li><a href="">Contato</a></li>
-                    <li><a href="">Sobre</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,52 +46,91 @@
         <div class="container2">
             <p>Coloque a quantia de gramas do alimento e descubra quantas calorias ele tem:</p>
         </div>
+        <div class="container2">
+            <p>Coloque o peso e Clique na fruta!</p>
+        </div>
     </header>
     <section>
         <div class="block">
             <span>
                 <!---->
                 <span class="items">
-                    <a href="" onclick="formulario()" ><img src="../img/banana-branca.webp" alt="banana-branca"></a>
+                    <img src="../img/banana-branca.webp" alt="banana-branca">
                     <span>
                         <p class="nome">Banana branca</p>
+                        <div class="texto">
+                                <span class="texto2">
+                                    <input type="text" value="0" oninput="formatarNumero(this)">
+                                        <p>Kg</p>
+                                </span>
+                        </div>
                     </span>
                 </span>
                 <!---->
                 <span class="items">
-                    <img src="../img/Abacate-avocado.webp" alt="Abacate avocado">
+                    <img src="../img/Abacate-avocado.webp" alt="Abacate-avocado">
                     <span>
                         <p class="nome">Abacate avocado</p>
+                        <div class="texto">
+                                <span class="texto2">
+                                    <input type="text" value="0" oninput="formatarNumero(this)">
+                                        <p>Kg</p>
+                                </span>
+                        </div>
                     </span>
                 </span>
                 <!---->
                 <span class="items">
-                    <img src="../img/abacaxi-perola.jpg" alt="Abacaxi pérola">
+                    <img src="../img/abacaxi-perola.jpg" alt="abacaxi-perola">
                     <span>
                         <p class="nome">Abacaxi perola</p>
+                        <div class="texto">
+                                <span class="texto2">
+                                    <input type="text" value="0" oninput="formatarNumero(this)">
+                                        <p>Kg</p>
+                                </span>
+                        </div>
                     </span>
                 </span>
                 <!---->
                 <span class="items">
-                    <img src="../img/maracuja-azedo.webp" alt="Maracuja azedo">
-                    <span>
-                        <p class="nome">Maracuja azedo</p>
-                    </span>
-                </span>
-                <!---->
-                <span class="items">
-                    <img src="../img/laranja-Bahia-importada.jpg" alt="Laranja Bahia importada">
-                    <span>
-                        <p class="nome">Laranja Bahia importada</p>
-                    </span>
-                </span>
-                <!---->
-                <span class="items">
-                    <img src="../img/ameixa-importada.jpg" alt="Ameixa importada">
+                    <img src="../img/ameixa-importada.jpg" alt="ameixa-importada">
                     <span>
                         <p class="nome">Ameixa importada</p>
+                        <div class="texto">
+                                <span class="texto2">
+                                    <input type="text" value="0" oninput="formatarNumero(this)">
+                                        <p>Kg</p>
+                                </span>
+                        </div>
                     </span>
-            </span>
+                </span>
+                <!---->
+                <span class="items">
+                    <img src="../img/laranja-Bahia-importada.jpg" alt="laranja-Bahia-importada">
+                    <span>
+                        <p class="nome">Laranja Bahia importada</p>
+                        <div class="texto">
+                                <span class="texto2">
+                                    <input type="text" value="0" oninput="formatarNumero(this)">
+                                        <p>Kg</p>
+                                </span>
+                        </div>
+                    </span>
+                </span>
+                <!---->
+                <span class="items">
+                    <img src="../img/maracuja-azedo.webp" alt="maracuja-azedo">
+                    <span>
+                        <p class="nome">Maracuja azedo</p>
+                        <div class="texto">
+                                <span class="texto2">
+                                    <input type="text" value="0" oninput="formatarNumero(this)">
+                                        <p>Kg</p>
+                                </span>
+                        </div>
+                    </span>
+                </span>
         </div> 
     </section>
 
@@ -99,6 +138,7 @@
 
 
     </footer>
+    <script src="../script/formatar_input.js"></script>
     <script src="../script/script.js"></script>
 </body>
 </html>
