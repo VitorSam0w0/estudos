@@ -5,7 +5,7 @@
 
 nav {
     width: 100%;
-    background-color: beige;
+    background-color: rgba(245, 245, 220, 0);
     color: white;
     position: fixed;
     text-align: center;
@@ -13,7 +13,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 2;
-    box-shadow: 5px 5px gray;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0);
     border-radius: 50px;
 }
 
