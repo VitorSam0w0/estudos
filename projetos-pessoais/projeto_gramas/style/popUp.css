@@ -11,10 +11,9 @@
     background-color: rgba(70, 70, 70, 0.644);
   
   }
-  
-  .content_forms_kg {
-    display: inline-block;
-    text-align: center;
+
+  .buttonExit {
+    margin-left: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
-  
-  
