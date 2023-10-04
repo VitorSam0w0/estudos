@@ -1,0 +1,43 @@
+.container {
+    padding-top: 2%;
+    justify-content: center;
+    display: flex;
+    z-index: 2;
+    padding-top: 3%;
+}
+
+.position {
+    position: fixed;
+}
+
+.tabuada {
+    padding-top: 3%;
+}
+
+.Tabuada {
+    box-shadow: 5px 5px black;
+    background-color: beige;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+
+
+.Tabuada p {
+    z-index: 1;
+    font-size: 20pt;
+    color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.case {
+    justify-content: center;
+    display: flex;
+}
+
+#erro {
+    padding-top: 4%;
+    justify-content: center;
+    display: flex;
+}

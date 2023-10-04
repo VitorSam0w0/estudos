@@ -7,11 +7,36 @@
     <link rel="shortcut icon" href="./imagem/js.ico" type="image/x-icon">
     <title>Tabuada</title>
 </head>
-<body>
+<body id="body">
     <nav></nav> <!--Serve para colocar os menus de navegação do site-->
     <header></header> <!--Serve para colocar o titulo da página-->
-    <section></section> <!--Serve para colocar o conteudo da página-->
+    <section>
+        <div>
+            <div class="container">
+                <div class="position">
+                    <input type="number" name="number" id="number">
+                    <input type="button" value="Enviar" onclick="enviar()">
+                </div>
+            </div>
+            <div class="tabuada">
+                <div class="Tabuada">
+                    <p id="erro"></p>
+                    </p><div class="case"><p id="numberCase1"></p><p>x 1 = </p><p id="one" href="#"></p></div>
+                    <div class="case"><p id="numberCase2"></p><p>x 2 = </p><p id="two" href="#"></p></div>
+                    <div class="case"><p id="numberCase3"></p><p>x 3 = </p><p id="three" href="#"></p></div>
+                    <div class="case"><p id="numberCase4"></p><p>x 4 = </p><p id="four" href="#"></p></div>
+                    <div class="case"><p id="numberCase5"></p><p>x 5 = </p><p id="five" href="#"></p></div>
+                    <div class="case"><p id="numberCase6"></p><p>x 6 = </p><p id="six" href="#"></p></div>
+                    <div class="case"><p id="numberCase7"></p><p>x 7 = </p><p id="seven" href="#"></p></div>
+                    <div class="case"><p id="numberCase8"></p><p>x 8 = </p><p id="eight" href="#"></p></div>
+                    <div class="case"><p id="numberCase9"></p><p>x 9 = </p><p id="nine" href="#"></p></div>
+                    <div class="case"><p id="numberCase10"></p><p>x 10 = </p><p id="ten" href="#"></p></div>
+                </div>
+            </div>
+        </div>
+    </section> <!--Serve para colocar o conteudo da página-->
     <footer></footer> <!--Serve para colocar os creditos finais da página-->
+    <script src="./script/script.js"></script>
 </body>
 </html>
 
