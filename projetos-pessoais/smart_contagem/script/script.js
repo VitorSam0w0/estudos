@@ -24,9 +24,10 @@ function calcular() {
                 if (end2 > number2) {
 
                     while (i <= end2) {
-                        campo.innerHTML += '&#x1F449;' + i + ' '
+                        campo.innerHTML += '&#x1F449;' + i + ' ' 
                         i += step2
                     }
+                    campo.innerHTML += '🏁'
             }
             }
         }

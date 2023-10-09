@@ -137,3 +137,8 @@ span{
     cursor: pointer;
 }
 
+#CAMPO {
+    font-size: 16pt;
+    font-family: monospace;
+    padding-bottom: 5%;
+}
