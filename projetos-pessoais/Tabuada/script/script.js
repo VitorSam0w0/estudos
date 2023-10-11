@@ -1,4 +1,5 @@
 function enviar() {
+    
     var Number = document.getElementById('number')
     var Number1 = parseInt(Number.value)
     var One = document.getElementById('one')
