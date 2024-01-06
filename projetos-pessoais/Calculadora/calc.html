@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calc.css">
+    <script src="calc.jsx"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <nav id="nav-container" onmouseover="showNav()" onmouseout="hideNav()">
+        <ul>
+            <li class="ALING">
+                <img class="cat" src="./cat.jpg" alt="CAT">
+                <ul class="nav invisible" id="inner-nav">
+                    <li><a href="./calc.html">Home</a></li>
+                    <li><a href="#">Calc</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="sect">
+            <div class="content-container">
+                <div>
+                    <input type="submit" value="" class="monitor">
+                </div>
+                <div>
+                    <input type="submit" value="1" class="inp" id="one">
+                    <input type="submit" value="2" class="inp" id="two">
+                    <input type="submit" value="3" class="inp" id="three">
+                    <input type="submit" value="+" class="inp" id="ad">
+                </div>
+                <div>
+                    <input type="submit" value="4" class="inp" id="four">
+                    <input type="submit" value="5" class="inp" id="five">
+                    <input type="submit" value="6" class="inp" id="six">
+                    <input type="submit" value="-" class="inp" id="sb">
+                </div>
+                <div>
+                    <input type="submit" value="7" class="inp" id="seven">
+                    <input type="submit" value="8" class="inp" id="eight">
+                    <input type="submit" value="9" class="inp" id="nine">
+                    <input type="submit" value="x" class="inp" id="mt">
+                </div>
+                <div>
+                    <input type="submit" value="0" class="zero" id="zero">
+                    <input type="submit" value="%" class="inp" id="dv">
+                    <input type="submit" value="Result" class="result" id="result">
+                </div>
+                <a href="#" id="content-calc"></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

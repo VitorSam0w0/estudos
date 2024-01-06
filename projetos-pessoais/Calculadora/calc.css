@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(to right , gray, white, gray);
+}
+
+.ALING {
+    align-items: center;
+    justify-content: center;
+    display: inline;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: inline;
+    font-size: 20pt;
+}
+
+.visible li {
+    list-style: none;
+    padding: 1%;
+    background-color: black;
+    border-radius: 10px;
+    max-width: 150px;
+    box-shadow: 3px 3px 3px red;
+}
+
+.visible li:hover {
+    cursor:no-drop;
+}
+
+.visible li a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.visible a {
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+
+.cat {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.sect {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, red, blue, yellow);
+    border-radius: 10px;
+    box-shadow: 6px 6px red;
+}
+
+.content-container {
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.inp {
+    width: 70px;
+    height: 70px;
+    font-size: 18pt;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+.zero {
+    width: 122px;
+    height: 70px;
+    font-size: 18pt;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+.result {
+    width: 90px;
+    height: 70px;
+    font-size: 18pt;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+.monitor {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 270px;
+    height: 50px;
+    font-size: 18pt;
+    font-family: monospace;
+    border-radius: 10px;
+}
